@@ -22,4 +22,15 @@ public class AppTest
     	double excepected=90;
         assertEquals(excepected, actual);
     }
+    
+    @Test
+    public void testWithNeagtiveNumber()
+    {
+    	ArthematicOpration ar=new ArthematicOpration();
+    	double actual=ar.sumOftwoNum(-40, -50);
+    	double excepected=-90;
+        assertEquals(excepected, actual);
+    }
+    
+    
 }
